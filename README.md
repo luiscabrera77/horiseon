@@ -1,9 +1,9 @@
-Refactoring of Horiseon homepage
+# Refactoring of Horiseon homepage
 (Original code by https://github.com/Xandromus)
 
 This project aims to make the site more accessible and easier to maintain. 
 
-List of improvements:
+## List of improvements:
 
 - Adde comments to code
 - Added semantic HTML elements
@@ -15,3 +15,5 @@ List of improvements:
 - Cleaned, organized and consolidated CSS stylesheet.
 
 See app live at: https://luiscabrera77.github.io/horiseon
+
+## Mockup and Live screenshots:
