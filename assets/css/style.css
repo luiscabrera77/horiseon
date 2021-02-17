@@ -40,7 +40,7 @@ nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
 
@@ -53,6 +53,8 @@ nav ul li {
     margin-left: 25px;
 }
 
+/* Hero */
+
 .hero {
     height: 800px;
     width: 100%;
@@ -64,38 +66,40 @@ nav ul li {
 
 /* Content Section */
 
-.content {
+.services {
   width: 75%;
   display: inline-block;
   margin-left: 20px;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
-.services {
+.services-item {
   margin-bottom: 20px;
   padding: 50px;
   height: 300px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
   background-color: #0072bb;
   color: #ffffff;
 }
 
-.services h2 {
+.services-item h2 {
   margin-bottom: 20px;
   font-size: 36px;
 }
 
-.services img {
+.services-item img {
   max-height: 200px;
+}
+
+/* Services Images */
+
+.float-left {
+  float: left;
+  margin-right: 25px;
+}
+
+.float-right {
+  float: right;
+  margin-left: 25px;
 }
 
 /* Benefits Section */
@@ -107,21 +111,21 @@ nav ul li {
     float: right;
     width: 20%;
     height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
 
-.benefit-description {
+.benefits-item {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-description h3 {
+.benefits-item h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-description img {
+.benefits-item img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
